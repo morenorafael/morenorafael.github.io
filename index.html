@@ -135,37 +135,37 @@
             <h2 class="mb-5">Habiliades </h2>
             <div class="subheading mb-3">Lenguajes &amp; herramientas de programación</div>
             <ul class="list-inline dev-icons">
-                <li class="list-inline-item">
+                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="PHP">
                     <i class="fab fa-php"></i>
                 </li>
-                <li class="list-inline-item">
+                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Laravel">
                     <i class="fab fa-laravel"></i>
                 </li>
-                <li class="list-inline-item">
+                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Base de Datos">
                     <i class="fab fas fa-database"></i>
                 </li>
-                <li class="list-inline-item">
+                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Angular">
                     <i class="fab fa-angular"></i>
                 </li>
-                <li class="list-inline-item">
+                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="VueJS">
                     <i class="fab fa-vuejs"></i>
                 </li>
-                <li class="list-inline-item">
+                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="NodeJS">
                     <i class="fab fa-node-js"></i>
                 </li>
-                <li class="list-inline-item">
+                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Gestión de Servidor Web">
                     <i class="fas fa-server"></i>
                 </li>
-                <li class="list-inline-item">
+                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="JavaScript">
                     <i class="fab fa-js-square"></i>
                 </li>
-                <li class="list-inline-item">
+                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="HTML5">
                     <i class="fab fa-html5"></i>
                 </li>
-                <li class="list-inline-item">
+                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="CSS3">
                     <i class="fab fa-css3-alt"></i>
                 </li>
-                <li class="list-inline-item">
+                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="GIT & GitHub">
                     <i class="fab fa-git"></i>
                 </li>
             </ul>
@@ -236,5 +236,10 @@
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 <!-- Custom scripts for this template -->
 <script src="js/resume.min.js"></script>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
 </body>
 </html>
